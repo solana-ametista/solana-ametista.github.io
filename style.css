@@ -16,14 +16,16 @@ main {
     padding: 12px;
     position: relative;
 }
-
-.active, .link:hover{
-    color: rgb(5, 152, 98);
-}
+a:visited { 
+    color:rgb(232, 232, 234); 
+   }
+a:hover { color:rgb(5, 152, 98); }
 
 .butns {
    display: flex;
-    justify-content: space-between;
+   flex-direction: column;
+   align-items: center;
+   gap: 3vh;
 }
 
 .colapse {
@@ -52,4 +54,5 @@ main {
     display: none;
     overflow: hidden;
     background-color: rgb(243, 236, 234);
+    gap: 0;
   }
