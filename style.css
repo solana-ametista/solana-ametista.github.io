@@ -51,7 +51,7 @@ a:hover { color:rgb(5, 152, 98); }
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 85%;
+    width: 75%;
     border: transparent;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -72,7 +72,7 @@ a:hover { color:rgb(5, 152, 98); }
     -webkit-text-fill-color: rgb(40, 42, 53);
     text-align: left;
     padding: 0 18px;
-    width: 85%;
+    width: 75%;
     display: none;
     overflow: hidden;
     background-color: rgb(243, 236, 234);
