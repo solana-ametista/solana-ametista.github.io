@@ -8,11 +8,14 @@ for (i = 0; i < coll.length; i++) {
     var content = this.nextElementSibling;
     if (content.style.display === "block") {
       content.style.display = "none";
+      
+      this.style.borderBottomRightRadius = "5px";
+      this.style.borderBottomLeftRadius = "5px";
     } else {
       content.style.display = "block";
 
-      coll.style.borderBottomRightRadius = "0em";
-      coll.style.borderBottomLeftRadius = "0em";
+      this.style.borderBottomRightRadius = "0px";
+      this.style.borderBottomLeftRadius = "0px";
     }
   });
 }

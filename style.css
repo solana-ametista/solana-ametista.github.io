@@ -53,15 +53,13 @@ a:hover { color:rgb(5, 152, 98); }
     padding: 18px;
     width: 75%;
     border: transparent;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 5px;
+    border-radius: 5px;
     text-align: left;
     outline: none;
     font-size: 17px;
     font-weight: bold;
     padding: 25px;
+    transition: all 500ms ease-in-out;
 }
 
 .active, .colapse:hover {
